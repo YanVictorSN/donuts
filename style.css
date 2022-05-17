@@ -1,0 +1,44 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+   background-size: cover;
+   background-clip: padding-box; 
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+}
+#logo {
+    font-size: 6vh;
+}
+#navbar {
+   display: flex;
+   
+   
+}
+/* Estilizando */
+#list {
+    display: flex;
+    list-style: none; 
+    font-size: 3vh;
+    font-weight: 700;
+}
+.links {
+    padding: 5vh;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:link {
+   color: aqua;
+}
+a:visited {
+    color: rgb(253, 18, 77);
+}
+a:focus {
+    background:red;
+}
